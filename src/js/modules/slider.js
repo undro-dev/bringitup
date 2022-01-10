@@ -26,8 +26,6 @@ export default class Slider {
       } else {
         this.hanson.classList.remove('slideInUp');
       }
-
-
     } catch (e) {}
 
     this.slides.forEach(slide => {
@@ -47,9 +45,6 @@ export default class Slider {
       this.hanson = document.querySelector('.hanson');
 
     } catch (e) {}
-
-
-
 
     this.btns.forEach(btn => {
       btn.addEventListener('click', () => {
